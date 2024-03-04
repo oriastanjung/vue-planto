@@ -18,7 +18,7 @@ import CardFeedback from "../atom/CardFeedback.vue"
             </div>
         </div>
         <div class="flex mt-32 lg:mt-">
-            <CardWithPlant image="/plant1.png" title="Calathea plant" category="Trendy House Plant" />
+            <CardWithPlant image="/plant-hero.png" title="Calathea plant" category="Trendy House Plant" />
         </div>
     </section>
 </template>

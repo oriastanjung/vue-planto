@@ -10,7 +10,7 @@ const showMenu = ref(false)
             <h1 class="cursor-pointer text-3xl font-extrabold flex gap-2 items-center justify-center">
                 <img class="w-11" src="/logo.png" alt="">Planto.
             </h1>
-            <ul class="hidden lg:flex items-center flex-row gap-14 justify-center">
+            <ul class="hidden xl:flex items-center flex-row gap-14 justify-center">
                 <li class="cursor-pointer hover:underline text-2xl font-medium">Home</li>
                 <li class="cursor-pointer hover:underline text-2xl font-medium">Plants Type</li>
                 <li class="cursor-pointer hover:underline text-2xl font-medium">More</li>
@@ -43,7 +43,7 @@ const showMenu = ref(false)
                 </div>
             </div>
             <div v-if="showMenu"
-                class="lg:hidden h-screen w-full fixed z-[50] top-0 left-0 bg-white bg-opacity-15 backdrop-blur-md px-16 py-20">
+                class="xl:hidden h-screen w-full fixed z-[50] top-0 left-0 bg-white bg-opacity-15 backdrop-blur-md px-16 py-20">
                 <div @click="showMenu = !showMenu" class="cursor-pointer flex justify-end absolute top-10 right-10">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                         <path fill-rule="evenodd"
